@@ -1,10 +1,12 @@
 import "./App.scss";
+import { Teste } from "./Teste";
+import Headerbar from "./components/Headerbar/Headerbar";
 
 const App = () => {
     return (
         <div>
-            <section>
-                <a href=""> Hero</a>
+            {/*<section>
+                <Headerbar />
             </section>
             <section>
                 <a href=""> Parallax</a>
@@ -27,6 +29,8 @@ const App = () => {
             <section>
                 <a href=""> Contact</a>
             </section>
+    */}
+            <Teste />
         </div>
     );
 };
