@@ -1,11 +1,12 @@
 import "./StyleHeaderbar.scss";
+import { motion } from "framer-motion";
 
 function Headerbar() {
     return (
         <div className="navbar">
             {/*Sidebar*/}
             <div className="wrapper">
-                <span>Douglas Dev</span>
+                <motion.span>Douglas Dev</motion.span>
                 <div className="social">
                     <a href="#">
                         <img src="./facebook.png" alt="" />
